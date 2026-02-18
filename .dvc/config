@@ -1,0 +1,4 @@
+[core]
+    remote = winermote
+['remote "winermote"']
+    url = s3://mlsops-dev-hassan

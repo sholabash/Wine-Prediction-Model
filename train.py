@@ -11,6 +11,7 @@ import mlflow
 import mlflow.sklearn
 
 def parse_args():
+    
     p = argparse.ArgumentParser("Simple MLflow demo (wine prediction)")
     p.add_argument("--csv", default="data/wine_sample.csv", help="Path to CSV (default: data/wine_sample.csv)")
     p.add_argument("--target", default="quality", help="Target column name (default: quality)")
